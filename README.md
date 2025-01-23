@@ -3,15 +3,18 @@
 </h1> 
 
 ## Enjoy the colour theme
+<p align="center">
+  <img src="https://github.com/rundercaster/DarkKnight/blob/main/.github/previewLoop.gif?raw=true" /><br/>
+</p>
 
-<!-- <p align="center">
-  <img src="./preview1.png" /><br/>
-  <i  style="font-size: .8em">gif</i>
-</p> -->
+<p align="center">
+  <img src="https://github.com/rundercaster/DarkKnight/blob/40ff8f7b392d12cb7d2f252574daff731aeb6ca0/.github/preview1.gif?raw=true" /><br/>
+</p>
 
-![image info](./images/.png)
+<!-- ![image info](./images/.png) -->
 
 Will put some screenshots for this thme a bit later, currently publishing for personal use
+
 
 
  <br/><br/>
