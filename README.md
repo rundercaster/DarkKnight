@@ -12,7 +12,7 @@
 </p>
 
 
-Will put some screenshots for this thme a bit later, currently publishing for personal use
+~~Will put some screenshots for this thme a bit later, currently publishing for personal use~~ 
 
 
 
