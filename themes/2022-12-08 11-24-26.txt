@@ -1,0 +1,6 @@
+		"editorBracketHighlight.foreground1": "#ff8bd8",
+		"editorBracketHighlight.foreground2": "#cc1130",
+		"editorBracketHighlight.foreground3": "#5d4fff",
+		"editorBracketHighlight.foreground4": "#a347ff",
+		"editorBracketHighlight.foreground5": "#00c0ff",
+		"editorBracketHighlight.foreground6": "#FF5400",

@@ -1,0 +1,284 @@
+
+.mtk10 {
+    font-style: normal;
+}
+
+.monaco-editor .margin, .monaco-editor-background, .monaco-editor .inputarea.ime-input {
+  background: transparent;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container.empty .editor-group-letterpress {
+  position: relative;
+}*/
+
+
+
+.editor-container {
+    position: relative;
+    overflow: hidden;
+} 
+
+.editor-group-container:after{
+  content:'';
+  height:300px;
+  width:100%;
+  display:block;
+  background-image:linear-gradient(90deg, rgba(0, 140, 255, 0.165) 1px, rgba(0,0,0,0) 1px), linear-gradient(0deg, rgba(0, 140, 255, 0.165) 1px, rgba(0,0,0,0) 1px);
+  /* background-image:linear-gradient(90deg, rgba(252,25,154,.1) 1px, rgba(0,0,0,0) 1px), linear-gradient(0deg, rgba(252,25,154,.1) 1px, rgba(0,0,0,0) 1px); */
+  background-position:bottom;
+  background-repeat:repeat;
+  background-size:20px 20px;
+  left: -25px;
+  position: absolute;
+  pointer-events: none;
+  bottom: 0;
+  transform: perspective(100px) rotateX(60deg);
+  z-index: 0;
+}
+.editor-group-container {
+  position: relative;
+  overflow: hidden;
+}
+
+
+canvas {
+    z-index: 2; 
+}
+
+.minimap-slider {
+    z-index: 3;
+    background: #0059ff0e !important;
+}
+
+
+
+.minimap.slider-mouseover {
+    z-index: 1;
+}
+
+.monaco-workbench .activitybar>.content .monaco-action-bar .badge .badge-content {
+  background: linear-gradient(to bottom, #fff951 25%, #fc28a8);
+}
+
+
+/* Active sidebar item */
+.monaco-workbench .activitybar>.content .monaco-action-bar .action-item.checked {
+  box-shadow: inset 0 -5px 25px #28cbfc3b;
+  position: relative;
+}
+
+.monaco-workbench .activitybar>.content .monaco-action-bar .action-item.checked::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  background: linear-gradient(to bottom, #fc28a8, #03edf9) !important;
+  opacity: 1;
+}
+
+.monaco-workbench .activitybar>.content .monaco-action-bar .action-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+/* Active tab neon */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active {
+  position: relative;
+  --tab-border-bottom-color: transparent !important;
+}
+
+/* Active tab stripe */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active::before {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;  
+  background: linear-gradient(to right, #fc28a8, #03edf9) !important;
+}
+
+.lightbulb-glyph {
+  filter: drop-shadow(0 0 5px #03edf9);
+}
+
+.monaco-editor .cursor { 
+    background: linear-gradient(to bottom, #bfa8ff,  #ff9ad7);
+    box-shadow: 0 0 5px #fc199a;
+    color: #241b2f; 
+}
+
+.monaco-inputbox>.wrapper>textarea.input::selection {
+  background-color:rgba(255,255,255,0.3);
+}
+
+.monaco-editor .line-numbers {
+  color: #0084ffab;
+  text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 10px #8a2dc066, 0 0 2px #8a2dc066;
+}
+
+.monaco-list .monaco-list-rows {
+  background: rgb(25, 25, 25) !important;
+}
+
+.monaco-list-row.focused, .monaco-list-row.selected {
+  background-color: #2d68c033 !important;
+}
+
+.explorer-folders-view span[title~="emphasized"], .monaco-icon-label[title~="emphasized"]::after {
+  color: #19f4fc;
+}
+
+.explorer-folders-view span[title~="problems"], .monaco-icon-label[title~="problems"]::after {
+  color: #ffcc00;
+}
+
+.vs-dark .monaco-scrollable-element>.scrollbar>.slider {
+  background: rgb(0, 204, 255);
+  opacity: 0.5;
+} 
+
+@keyframes tooltippulse {
+  0% {  
+      box-shadow: 0 0 0 0 rgba(255, 0, 242, 0);   
+  }
+  50% {
+      box-shadow: 0 0 85px 0 rgba(0, 217, 255, 0.5);  
+  }
+  100% {
+      box-shadow: 0 0 0 0 rgba(255, 0, 242, 0);
+  }    
+}
+
+.monaco-editor .monaco-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-size: 200% 200%;
+  width: 100%;
+  background-image: linear-gradient(to right, #fc28a8, #03edf9, #fc28a8, #03edf9, #fc28a8);
+
+  animation: neonline 2s infinite;
+}
+
+@keyframes neonline {
+  0% {  
+     background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }    
+}
+
+
+.monaco-editor .selected-text {
+  background-color: #000000cb!important;
+  box-shadow: 0 0 35px 5px #00ccff2f;
+  color: #fff!important;
+}
+
+
+.monaco-editor .cursor { 
+  box-shadow: 0 0 15px 2px #00c3ff;
+  animation: cursor 1s infinite linear;
+}
+
+
+.editor-group-container:after {
+  animation: flight 2s infinite linear;
+}
+
+.view-line .inline-folded:after {
+  color:yellow;
+  border-radius: 5px;
+  animation: colapse .5s linear;
+}
+
+
+
+.monaco-editor .line-numbers.active-line-number {
+  color: turquoise;
+  text-shadow: 0 0 1px yellow!important;
+}
+
+
+.monaco-editor .minimap-shadow-visible {
+  box-shadow: none!important;
+}
+
+
+
+@keyframes colapse {
+  0% {  
+      background-color:yellow;
+      box-shadow: 0 0 5px 0 yellow;      
+  }
+  70% {
+      background-color: yellow;
+      box-shadow: 0 0 35px 10px yellow;
+  }
+  100% {
+      background-color: transparent;
+  }    
+}
+
+@keyframes cursor {
+  0% {  
+      box-shadow: 0 0 5px 0 #00c3ff;      
+  }
+  50% {
+      box-shadow: 0 0 28px 3px #00c3ff;
+  }
+  100% {  
+    box-shadow: 0 0 5px 0 #00c3ff;      
+  }
+  
+}
+
+@keyframes flight {
+0% {
+  transform: perspective(100px) rotateX(60deg) translateY(0px);
+}
+100% {
+  transform: perspective(100px) rotateX(60deg) translateY(20px);
+}
+}
+
+.editor-container::after {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  /* content: 'do epic shit...'; */
+  content: ' ';
+  font-weight: bold;
+  font-size: 5em;
+  font-family: 'Tourney', cursive;
+
+  color: #00000000;
+  position: absolute;
+  bottom: -140px;
+  width: 100%;
+  overflow-x: hidden;
+  height: 1px;
+  
+
+  text-shadow: 0 0 30px #fc28a8;
+
+  animation: cnt 10s infinite linear;
+
+
+
+}
