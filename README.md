@@ -11,7 +11,6 @@
   <img src="https://github.com/rundercaster/DarkKnight/blob/40ff8f7b392d12cb7d2f252574daff731aeb6ca0/.github/preview1.gif?raw=true" /><br/>
 </p>
 
-<!-- ![image info](./images/.png) -->
 
 Will put some screenshots for this thme a bit later, currently publishing for personal use
 
@@ -47,8 +46,9 @@ Windows might look like:
 
 ```json
   "vscode_custom_css.imports": [
-    "file:///C:/Users/{your username}/.vscode/extensions/runder.dark-knight-1.0.0/DarkKnight.css",
+    "file:///C:/Users/{YOUR USERNAME}/.vscode/extensions/runder.dark-knight-1.0.1/DarkKnight.css",
     ]
+    
 
 ```
 
@@ -56,10 +56,11 @@ Windows might look like:
 On Mac it might look something like:
 ```json
   "vscode_custom_css.imports": [
-    "file:///Users/{your username}/.vscode/extensions/runder.dark-knight-1.0.0/DarkKnight.css",
+    "file:///Users/{YOUR USERNAME}/.vscode/extensions/runder.dark-knight-1.0.1/DarkKnight.css",
     ]
 
 ```
+Check version number might be different if something happened "runder.dark-knight-1.0.1"
 
  <br/><br/>
 
