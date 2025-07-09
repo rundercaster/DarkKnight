@@ -1,0 +1,111 @@
+{
+	"name": "dark-knight-runder",
+	"displayName": "The Dark Knight Theme",
+	"description": "Professional dark mode theme, Best One!!!",
+	"publisher": "Runder",
+	"author": {
+		"name": "Runder",
+		"email": "RunderCaster@gmail.com"
+	},
+	"version": "1.0.2",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.73.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
+	"repository": {},
+	"contributes": {
+		"commands": [
+			{
+				"command": "knight.select_theme",
+				"title": "select theme"
+			},
+			{
+				"command": "knight.select_icons",
+				"title": "select icons"
+			},
+			{
+				"command": "knight.select_product_icons",
+				"title": "select product icons"
+			}
+		],
+		"themes": [
+			{
+				"label": "Dark Knight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dark Knight-color-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"label": "Dark Knight Icons",
+				"id": "Dark Knight Icons",
+				"path": "./icon-themes/Dark Knight icon-theme.json"
+			}
+		],
+		"productIconThemes": [
+			{
+				"label": "Dark Knight Icons",
+				"id": "icons-Knight-dark",
+				"path": "./properties-icon/icons-Right.json"
+			}
+		],
+		"extensionKind": [
+			"ui",
+			"workspace",
+			"productIconThemes",
+			"Themes",
+			"dark"
+		],
+		"keywords": [
+			"focus",
+			"minimal",
+			"icons",
+			"syntax highlighting",
+			"Black theme",
+			"Black theme",
+			"dark theme",
+			"pure dark theme",
+			"pure black theme",
+			"best dark theme",
+			"awesome dark theme",
+			"awesome black theme",
+			"best black theme",
+			"Black",
+			"Theme",
+			"Dark Theme",
+			"Customize",
+			"Professional",
+			"One Theme",
+			"One Dark",
+			"icon",
+			"theme",
+			"product",
+			"product-icon-theme",
+			"Dark night",
+			"Drak knight",
+			"The Drak Knight",
+			"Runder",
+			"Runder dark"
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1709626865572,
+		"id": "c02b79a5-ed9c-4339-9f77-0dd1958e44cc",
+		"publisherId": "6a3ac447-bd78-4897-829a-c434e1e04d80",
+		"publisherDisplayName": "RUNDER",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"pinned": false,
+		"hasPreReleaseVersion": false,
+		"size": 1054828
+	}
+}
